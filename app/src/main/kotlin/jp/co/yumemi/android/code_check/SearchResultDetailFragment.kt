@@ -12,9 +12,9 @@ import coil.load
 import jp.co.yumemi.android.code_check.TopActivity.Companion.lastSearchDate
 import jp.co.yumemi.android.code_check.databinding.FragmentSearchResultDetailBinding
 
-class TwoFragment : Fragment(R.layout.fragment_search_result_list) {
+class SearchResultDetailFragment : Fragment(R.layout.fragment_search_result_list) {
 
-    private val args: TwoFragmentArgs by navArgs()
+    private val args: SearchResultDetailFragmentArgs by navArgs()
 
     private var binding: FragmentSearchResultDetailBinding? = null
     private val _binding get() = binding!!
